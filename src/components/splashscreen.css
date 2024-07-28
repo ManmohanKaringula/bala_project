@@ -1,0 +1,18 @@
+.splash-screen {
+    position: fixed; /* Keeps the splash screen on top of everything */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensures the splash screen is on top */
+  }
+  
+  .splash-screen img {
+    max-width: 80%; /* Optional: Limits the size of the GIF */
+    max-height: 80%; /* Optional: Limits the height of the GIF */
+  }
+  

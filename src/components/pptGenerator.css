@@ -1,0 +1,19 @@
+.items {
+    display: grid;
+    place-items: center;
+    width: 70%; /* Full width of the parent container */
+    height: 500px; /* Fixed height */
+    margin-top: 10%; /* Margin at the top */
+    margin-left: 15%;
+    background-color: rgb(185, 209, 226); /* Background color */
+    border-radius: 30px; /* Rounded corners */
+}
+
+.inneritems {
+    display: flex;
+    flex-direction: column; /* Vertical alignment */
+    align-items: start; /* Center contents horizontally */
+    justify-content: center; /* Center contents vertically */
+    margin-top: 10%;
+    background-color: aliceblue;
+}
